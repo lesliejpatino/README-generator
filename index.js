@@ -38,6 +38,12 @@ inquirer
         },
         {
             type: "input",
+            message: "Provide the link to your live site: ",
+            name: "link"
+
+        },
+        {
+            type: "input",
             message: "What is needed to install this project?",
             name: "install"
         },
@@ -79,6 +85,7 @@ inquirer
 
 ## Description 
 * ${answers.description}
+* [Visit the Live Site](answers.link)
 
 ## Installation 
 * ${answers.install}
