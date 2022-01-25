@@ -12,7 +12,7 @@ const licenseInfo = {
 
 var updateLicense = function(holder, license){
 
-    return `Copyright 2022 <${holder}>
+    return `Copyright 2022 ${holder}
     ${licenseInfo[license]}
     `
 }
@@ -34,7 +34,7 @@ inquirer
         },
         {
             type: "input",
-            message: "What are the steps required to install your project?",
+            message: "What is needed to install this project?",
             name: "install"
         },
         {
@@ -54,20 +54,18 @@ inquirer
         },
         {
             type: "input",
-            message: "Who contributed to this project?",
+            message: "What is your full name?",
             name: "contributor"
         },
         {
             type: "input",
             message: "What is your email?",
             name: "email"
-            // this needs to be added under questions.
         },
         {
             type: "input",
             message: "What is your GitHub username?",
             name: "github"
-            // this needs to be added under questions
         },
     ]).then(answers => {
         let readMe = `# ${answers.title}
@@ -90,7 +88,7 @@ inquirer
 * ${answers.usage}
 
 ## Questions
-*[Visit My GitHub](https://github.com/${answers.github})
+* [Visit My GitHub](https://github.com/${answers.github})
 * If you have any additional questions, please contact me at: ${answers.email}
    
 ## License
