@@ -21,6 +21,11 @@ inquirer
     .prompt([
         {
             type: "input",
+            message: "What is your full name?",
+            name: "contributor"
+        },
+        {
+            type: "input",
             message: "What is your project title?",
             name: "title"
 
@@ -53,12 +58,7 @@ inquirer
         },
         {
             type: "input",
-            message: "What is your full name?",
-            name: "contributor"
-        },
-        {
-            type: "input",
-            message: "What is your email?",
+            message: "What email can you be reached at?",
             name: "email"
         },
         {
