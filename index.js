@@ -72,3 +72,14 @@ inquirer
     ]).then(answers => {
         let readMe = `# ${answers.title}
 ![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-brightgreen.svg)
+
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Questions](#questions)
+* [License](#license)
+        
+`
+
+})
