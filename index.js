@@ -6,7 +6,7 @@ const inquirer = require("inquirer");
 // const licenseInfo = {
 //     MIT: "Mit",
 //     ISC: "",
-//     "MPL_2.0": ""
+//     "Unlicense": ""
 // }
 
 
@@ -49,7 +49,7 @@ inquirer
             choices : [
                 'MIT',
                 'ISC',
-                'MPL_2.0',
+                'Unlicense',
             ]
         },
         {
@@ -90,9 +90,16 @@ inquirer
 * ${answers.usage}
 
 ## Questions
-* ${answers.email}
-* ${answers.github} 
-        
-`
+* https://github.com/${answers.github} 
+   
+## License
+* ${updateLicense(answers.contributor, answers.license)}
 
+            fs.writeFile('README.md', readMe, (err) => {
+                if (err) {
+                    console.log(err);
+                }
+            })
+`
 })
+
