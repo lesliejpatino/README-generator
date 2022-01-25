@@ -30,7 +30,10 @@ All of the work will be done on a [Javacript](https://www.javascript.com/) file.
 
 
 ## Usage
-* 
+Once the dependencies mentioned under [Installation](#installation) are installed, the application can be run directly from the command line by typing:
+* node index.js
+
+The user will then be presented with prompts and their answers will populate the README.
 
 [Click here to view a video that will walk you through the applications functionality.](https://drive.google.com/file/d/1ypxgyLQpHS5e-QHExD61I0k4Ws4tevFi/view)
 
