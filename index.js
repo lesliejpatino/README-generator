@@ -90,7 +90,9 @@ inquirer
 * ${answers.usage}
 
 ## Questions
-* https://github.com/${answers.github} 
+*[Visit My GitHub](https://github.com/${answers.github})
+* If you have any additional questions, please contact me at: ${answers.email}
+
    
 ## License
 * ${updateLicense(answers.contributor, answers.license)}
