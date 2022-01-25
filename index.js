@@ -93,6 +93,9 @@ inquirer
 ## Usage
 * ${answers.usage}
 
+# Contributors
+* ${answers.contributor} is the author of this application. 
+
 ## Questions
 * [Visit My GitHub](https://github.com/${answers.github})
 * If you have any additional questions, please contact me at: ${answers.email}
