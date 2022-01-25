@@ -30,7 +30,7 @@ The following dependencies will be needed in order for this application to work:
 * [Node module - Inquirer](https://www.npmjs.com/package/inquirer)
 * [Node module - FS(file system) ](https://nodejs.org/api/fs.html)
 
-All of the work will be done on a [Javacript](https://www.javascript.com/) file.
+All of the work will be done on a [Javascript](https://www.javascript.com/) file.
 
 
 
