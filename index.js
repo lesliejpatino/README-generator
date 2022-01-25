@@ -79,6 +79,19 @@ inquirer
 * [Usage](#usage)
 * [Questions](#questions)
 * [License](#license)
+
+## Description 
+* ${answers.description}
+
+## Installation 
+* ${answers.install}
+
+## Usage
+* ${answers.usage}
+
+## Questions
+* ${answers.email}
+* ${answers.github} 
         
 `
 
